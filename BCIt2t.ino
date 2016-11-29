@@ -6,7 +6,9 @@
 //a thought to thought communication code with trainer is also included with this code. the trainer is 
 //used for recording data for each word and then the speller finds the word 
 //you think. for improving the code do add your inputs and optimize as much as possible.
-//Coder- Tanmay Chakraborty //mail me at-tanmay.608@gmail.com
+//example sentence- "THIS IS A TWO WAY THOUGHT TO THOUGHT COMMUNICATION SYSTEM"
+//Coder- Tanmay Chakraborty
+//mail me at-tanmay.608@gmail.com
 
 //function name trainer() void type
 //function name spell() character type returns a character
@@ -785,34 +787,34 @@ String spell()
 //  Serial.print(lowgamma);
 //  Serial.print(midgamma);  
   if (atten<=a1 && atten>=a2 && medi<=b1 && medi<=b2 && delta<=c1 && delta>=c2 && theta<=d1 && theta>=d2 && lowalpha<=e1 && lowalpha>=e2 && highalpha<=f1 && highalpha>=f2 && lowbeta<=g1 && lowbeta>=g2 && highbeta<=h1 && highbeta>=h2 && lowgamma<=i1 && lowgamma>=i2 && midgamma<=j1 && midgamma>=j2) 
-  return 'THIS';
+  return "THIS";
   
    else if (atten<=a3 && atten>=a4 && medi<=b3 && medi<=b4 && delta<=c3 && delta>=c4 && theta<=d3 && theta>=d4 && lowalpha<=e3 && lowalpha>=e4 && highalpha<=f3 && highalpha>=f4 && lowbeta<=g3 && lowbeta>=g4 && highbeta<=h3 && highbeta>=h4 && lowgamma<=i3 && lowgamma>=i4 && midgamma<=j3 && midgamma>=j4) 
-  return 'IS';
+  return "IS";
   
      else if (atten<=a5 && atten>=a6 && medi<=b5 && medi<=b6 && delta<=c5 && delta>=c6 && theta<=d5 && theta>=d6 && lowalpha<=e5 && lowalpha>=e6 && highalpha<=f5 && highalpha>=f6 && lowbeta<=g5 && lowbeta>=g6 && highbeta<=h5 && highbeta>=h6 && lowgamma<=i5 && lowgamma>=i6 && midgamma<=j5 && midgamma>=j6) 
-  return 'A';
+  return "A";
   
      else if (atten<=a7 && atten>=a8 && medi<=b7 && medi<=b8 && delta<=c7 && delta>=c8 && theta<=d7 && theta>=d8 && lowalpha<=e7 && lowalpha>=e8 && highalpha<=f7 && highalpha>=f8 && lowbeta<=g7 && lowbeta>=g8 && highbeta<=h7 && highbeta>=h8 && lowgamma<=i7 && lowgamma>=i8 && midgamma<=j7 && midgamma>=j8) 
-  return 'TWO';
+  return "TWO";
   
      else if (atten<=a9 && atten>=a0 && medi<=b9 && medi<=b0 && delta<=c9 && delta>=c0 && theta<=d9 && theta>=d0 && lowalpha<=e9 && lowalpha>=e0 && highalpha<=f9 && highalpha>=f0 && lowbeta<=g9 && lowbeta>=g0 && highbeta<=h9 && highbeta>=h0 && lowgamma<=i9 && lowgamma>=i0 && midgamma<=j9 && midgamma>=j0) 
-  return 'WAY';
+  return "WAY";
   
      else if (atten<=aa1 && atten>=aa2 && medi<=ba1 && medi<=ba2 && delta<=ca1 && delta>=ca2 && theta<=da1 && theta>=da2 && lowalpha<=ea1 && lowalpha>=ea2 && highalpha<=fa1 && highalpha>=fa2 && lowbeta<=ga1 && lowbeta>=ga2 && highbeta<=ha1 && highbeta>=ha2 && lowgamma<=ia1 && lowgamma>=ia2 && midgamma<=ja1 && midgamma>=ja2) 
-  return 'THOUGHT';
+  return "THOUGHT";
   
      else if (atten<=ab1 && atten>=ab2 && medi<=bb1 && medi<=bb2 && delta<=cb1 && delta>=cb2 && theta<=db1 && theta>=db2 && lowalpha<=eb1 && lowalpha>=eb2 && highalpha<=fb1 && highalpha>=fb2 && lowbeta<=gb1 && lowbeta>=gb2 && highbeta<=hb1 && highbeta>=hb2 && lowgamma<=ib1 && lowgamma>=ib2 && midgamma<=jb1 && midgamma>=jb2) 
-  return 'TO';
+  return "TO";
   
      else if (atten<=ac1 && atten>=ac2 && medi<=bc1 && medi<=bc2 && delta<=cc1 && delta>=cc2 && theta<=dc1 && theta>=dc2 && lowalpha<=ec1 && lowalpha>=ec2 && highalpha<=fc1 && highalpha>=fc2 && lowbeta<=gc1 && lowbeta>=gc2 && highbeta<=hc1 && highbeta>=hc2 && lowgamma<=ic1 && lowgamma>=ic2 && midgamma<=jc1 && midgamma>=jc2) 
-  return 'THOUGHT';
+  return "THOUGHT";
   
      else if (atten<=ad1 && atten>=ad2 && medi<=bd1 && medi<=bd2 && delta<=cd1 && delta>=cd2 && theta<=dd1 && theta>=dd2 && lowalpha<=ed1 && lowalpha>=ed2 && highalpha<=fd1 && highalpha>=fd2 && lowbeta<=gd1 && lowbeta>=gd2 && highbeta<=hd1 && highbeta>=hd2 && lowgamma<=id1 && lowgamma>=id2 && midgamma<=jd1 && midgamma>=jd2) 
-  return 'COMMUNICATION';
+  return "COMMUNICATION";
   
      else if (atten<=ae1 && atten>=ae2 && medi<=be1 && medi<=be2 && delta<=ce1 && delta>=ce2 && theta<=de1 && theta>=de2 && lowalpha<=ee1 && lowalpha>=ee2 && highalpha<=fe1 && highalpha>=fe2 && lowbeta<=ge1 && lowbeta>=ge2 && highbeta<=he1 && highbeta>=he2 && lowgamma<=ie1 && lowgamma>=ie2 && midgamma<=je1 && midgamma>=je2) 
-  return 'SYSTEM';
+  return "SYSTEM";
   
   
 }
